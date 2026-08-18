@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Jess' Intelligence Center · 情报中枢</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- EVA background layers (rotating) -->
+  <div class="bg-stack" id="bgStack" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <div class="layout">
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar">
+      <div class="nav-logo">
+        <div class="logo-mark" id="logoMark">
+          <img src="assets/avatar/avatar.jpg" alt="Jess' Intelligence Center" class="avatar-img" />
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">JESS' INTEL</span>
+          <span class="logo-sub">情报中枢 · NERV</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-board="home">
+          <span class="nav-ico">⌂</span><span class="nav-label">主控台</span>
+        </button>
+        <!-- board nav items injected by app.js (inserted before #navFav) -->
+        <button class="nav-item" id="navFav" data-view="favorites">
+          <span class="nav-ico">★</span><span class="nav-label">收藏</span>
+          <span class="nav-count" id="favCount">0</span>
+        </button>
+        <button class="nav-item" id="navSearch" data-view="search">
+          <span class="nav-ico">⌕</span><span class="nav-label">实时检索</span>
+        </button>
+      </nav>
+
+      <div class="nav-foot">
+        <div class="me-mode">
+          <span class="me-dot"></span>
+          <span>核实模式 · 待确认项需亲自核对</span>
+        </div>
+        <div class="update-box">
+          <div class="update-label">情报更新周期</div>
+          <div class="update-val">每日 09:00</div>
+          <div class="update-next" id="updateNext">下次更新 —</div>
+        </div>
+        <div class="motto">GOD'S IN HIS HEAVEN · ALL'S RIGHT WITH THE WORLD</div>
+      </div>
+    </aside>
+
+    <!-- ============ MAIN ============ -->
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-title" id="topbarTitle">主控台</div>
+        <div class="topbar-actions">
+          <div class="search-wrap">
+            <span class="search-ico">⌕</span>
+            <input id="searchInput" class="search" type="text" placeholder="搜索标题 / 来源 / 关键词…" />
+          </div>
+          <button class="btn btn-ghost" id="refreshBtn" title="实时刷新">↻ 刷新</button>
+          <button class="btn btn-ghost" id="syncBtn" title="恢复最新数据">⟳ 恢复最新</button>
+          <button class="btn btn-ghost" id="importBtn" title="导入 JSON">⬇ 导入</button>
+          <button class="btn btn-ghost" id="exportBtn" title="导出 JSON">⬆ 导出</button>
+          <button class="btn btn-ghost" id="themeBtn" title="切换主题">◐ 主题</button>
+        </div>
+      </header>
+
+      <!-- ===== HOME VIEW ===== -->
+      <section id="homeView" class="view">
+        <div class="home-hero">
+          <div class="hero-tag">// JESS' INTELLIGENCE CENTER</div>
+          <h1 class="hero-title">JESS' INTELLIGENCE<br/>CENTER</h1>
+          <p class="hero-sub">智能机器人行业法规情报中枢 — 覆盖 新法动态 · 合规更新 · 行业动态 · 地缘政治 · 处罚案例。官方来源第一梯队呈现，待确认项由你亲自核实；亦可进入「实时检索」即时调取最新信息。</p>
+          <div class="hero-stats" id="heroStats"></div>
+        </div>
+
+        <div class="section-title">板块入口 <span class="blink">▮</span></div>
+        <div class="board-grid" id="boardGrid"></div>
+
+        <div class="section-title">最新动态</div>
+        <div class="feed" id="feed"></div>
+      </section>
+
+      <!-- ===== BOARD VIEW ===== -->
+      <section id="boardView" class="view" hidden>
+        <div class="board-head">
+          <div>
+            <h2 class="board-title" id="boardTitle"></h2>
+            <p class="board-desc" id="boardDesc"></p>
+          </div>
+          <button class="btn btn-accent" id="addBtn">＋ 新增条目</button>
+        </div>
+
+        <div class="filter-bar" id="filterBar"></div>
+
+        <div class="results-meta" id="resultsMeta"></div>
+        <div class="results" id="results"></div>
+      </section>
+
+      <!-- ===== LIVE SEARCH VIEW ===== -->
+      <section id="searchView" class="view" hidden>
+        <div class="search-hero">
+          <div class="hero-tag">// LIVE INTEL RETRIEVAL</div>
+          <h2 class="search-title">实时情报检索</h2>
+          <p class="search-sub">输入关键词，即时检索本库全部情报；并一键调取维基/网络最新资料。</p>
+
+          <div class="search-big">
+            <span class="search-ico">⌕</span>
+            <input id="liveSearch" class="search-big-input" type="text" placeholder="如：欧盟 反倾销、AI Act、出口管制、人形机器人…" autocomplete="off" />
+          </div>
+
+          <div class="search-controls">
+            <div class="chips" id="scopeChips"></div>
+            <label class="toggle">
+              <input type="checkbox" id="officialOnly" /> <span>仅官方来源</span>
+            </label>
+            <button class="btn btn-accent" id="webSearchBtn">🌐 必应联网检索</button>
+          </div>
+
+          <div class="results-meta" id="liveMeta"></div>
+
+          <div class="live-cols">
+            <div class="live-col">
+              <div class="live-col-title">▣ 本库情报</div>
+              <div class="results" id="liveLocal"></div>
+            </div>
+            <div class="live-col">
+              <div class="live-col-title">🌐 联网实时结果 <span class="live-hint" id="liveHint"></span></div>
+              <div class="web-results" id="liveWeb">
+                <div class="empty">输入关键词后，将自动联网检索维基百科等公开资料。</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== FAVORITES VIEW ===== -->
+      <section id="favView" class="view" hidden>
+        <div class="board-head">
+          <div>
+            <h2 class="board-title" id="favTitle">★ 收藏</h2>
+            <p class="board-desc" id="favDesc">你标记关注的事项，跨板块聚合在此，方便随时查看。</p>
+          </div>
+        </div>
+        <div class="filter-bar" id="favFilterBar"></div>
+        <div class="results-meta" id="favMeta"></div>
+        <div class="results" id="favResults"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ============ DETAIL MODAL ============ -->
+  <div class="modal-overlay" id="detailModal" hidden>
+    <div class="modal glass-modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h3 id="detailTitle">详情</h3>
+        <button class="modal-x" data-close>✕</button>
+      </div>
+      <div class="modal-body" id="detailBody"></div>
+      <div class="modal-foot" id="detailFoot"></div>
+    </div>
+  </div>
+
+  <!-- ============ REAL-TIME REFRESH MODAL ============ -->
+  <div class="modal-overlay" id="refreshModal" hidden>
+    <div class="modal glass-modal refresh-modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h3>实时刷新情报</h3>
+        <button class="modal-x" data-close>✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="refresh-field">
+          <label>刷新关键词</label>
+          <div class="search-big" style="margin-top:6px;">
+            <span class="search-ico">⌕</span>
+            <input id="refreshInput" class="search-big-input" type="text" placeholder="如：欧盟 AI Act、出口管制、人形机器人融资…" autocomplete="off" />
+          </div>
+        </div>
+        <div class="refresh-field">
+          <label>检索范围</label>
+          <div class="chips" id="refreshScopeChips"></div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="refreshOfficialOnly" /> <span>仅官方来源</span>
+        </label>
+        <div class="refresh-actions">
+          <button class="btn btn-accent" id="runRefreshBtn">↻ 执行刷新</button>
+          <button class="btn btn-ghost" id="refreshBingBtn">🌐 必应联网检索</button>
+        </div>
+        <div class="results-meta" id="refreshMeta"></div>
+        <div class="refresh-cols">
+          <div class="refresh-col">
+            <div class="live-col-title">▣ 本库情报</div>
+            <div class="results" id="refreshLocal"></div>
+          </div>
+          <div class="refresh-col">
+            <div class="live-col-title">🌐 联网实时结果 <span class="live-hint" id="refreshHint"></span></div>
+            <div class="web-results" id="refreshWeb">
+              <div class="empty">输入关键词并点击「执行刷新」，将同步检索本库与维基百科等公开资料。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <span class="spacer"></span>
+        <button type="button" class="btn btn-ghost" data-close>关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ EDIT MODAL ============ -->
+  <div class="modal-overlay" id="editModal" hidden>
+    <div class="modal glass-modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h3 id="editTitle">编辑条目</h3>
+        <button class="modal-x" data-close>✕</button>
+      </div>
+      <form class="modal-body" id="editForm"></form>
+      <div class="modal-foot">
+        <button type="button" class="btn btn-ghost" id="deleteBtn" hidden>🗑 删除</button>
+        <span class="spacer"></span>
+        <button type="button" class="btn btn-ghost" data-close>取消</button>
+        <button type="submit" form="editForm" class="btn btn-accent">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <input type="file" id="fileInput" accept="application/json" hidden />
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="assets/data.js?v=3"></script>
+  <script src="assets/app.js?v=4"></script>
+</body>
+</html>
