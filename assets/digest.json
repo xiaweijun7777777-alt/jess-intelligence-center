@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "items": [
     {
       "key": "regulations",
@@ -6214,6 +6214,208 @@
         "url": "https://www.toutiao.com/article/7684098938403586596/",
         "date": "2026-09-15",
         "summary": "深圳市监局在2026年“中国公平竞争政策宣传周”公布15起反不正当竞争典型案例，其中某跨境电商公司销售泳池机器人期间，于2026年4月下载竞品泳池机器人图片上架自有网站、捏造版权并7次向平台举报致竞品下架1天，构成商业诋毁。依据《反不正当竞争法》第十二条、第二十八条，责令立即改正并处罚款10万元。本案为利用境外平台知识产权投诉机制实施“互联网+跨境”商业诋毁的新型案件，对机器人出海企业的合规竞争具有警示意义。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "regulations",
+      "item": {
+        "id": "auto-20260916-01",
+        "title": "美国圣马特奥县通过自主/AI 控制机器人许可制度，设全美首例商用机器人准入与工人保护规则",
+        "country": "美国",
+        "type": "地方立法/公共安全",
+        "sourceType": "官方发布（县政）",
+        "source": "San Mateo County 县政府",
+        "url": "https://www.smcgov.org/ceo/news/san-mateo-county-supervisors-pass-new-public-safety-worker-protections-autonomous-robots",
+        "date": "2026-09-16",
+        "summary": "圣马特奥县监事会 4:0 通过全美首创的自主/AI 控制机器人许可制度（Ray Mueller 提出）。适用于未建制地区使用摄像头/传感器、部分无人操控且由可充锂电池供电的商用机器人（餐厅、酒店、商店等）。企业须申领许可，提交制造商、安全记录与召回信息，并证明符合电池安全、无障碍、隐私与食品安全要求；还须提交经济影响评估与劳动力缓解方案（再培训基金/60天通知+遣散/同等薪酬再部署三选一）。该县无权认证 AI 系统本身安全，呼吁联邦与州建立安全认证体系。该 ordinance 待最终采纳后 30 天生效。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "regulations",
+      "item": {
+        "id": "auto-20260916-02",
+        "title": "ISO/FDIS 13482《机器人—个人与商用服务机器人安全要求》进入最终国际标准草案表决",
+        "country": "国际（ISO）",
+        "type": "标准发布",
+        "sourceType": "标准发布（ISO/TC 299）",
+        "source": "国际标准化组织（ISO）",
+        "url": "https://www.iso.org/standard/83498.html",
+        "date": "2026-09-16",
+        "summary": "ISO 13482 服务机器人安全标准的第 2 版于 2026-09-15 进入 FDIS（最终国际标准草案）阶段、启动为期 2 个月的成员体表决，现行版为 ISO 13482:2014。新版覆盖个人与专业/商用服务机器人的物理人机接触安全与功能安全要求，不涉及工业与医疗应用。对具身智能企业出海（尤其陪护、商用服务机器人）而言，功能安全合规门槛进一步抬升，需提前按新版框架做风险评估与设计留痕。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260916-03",
+        "title": "服务机器人出海欧盟：CE 不止“做几个测试”，机械+网络+无线+无障碍四轴并行",
+        "country": "中国",
+        "type": "合规指引/解读",
+        "sourceType": "行业解读",
+        "source": "机电之家（jdzj.com）",
+        "url": "https://www.jdzj.com/news/341850.html",
+        "date": "2026-09-16",
+        "summary": "文章梳理 2026 年欧盟对“机器人”品类的多层合规叠加：新机械法规 (EU)2023/1230 将于 2027-01-20 全面适用，协作/AMR 被纳入；带无线产品须叠加 RED 与 EN 18031 网络安全；CRA 第14条漏洞报告义务已于 2026-09-11 生效，非欧盟制造商须设欧盟授权代表（AR）；EAA 无障碍 EN 301 549 v4.1.1 已于 9-2 发布、预计 11-30 获 OJEU 引述。奇瑞系 AiMOGA Mornine 已拿下 CE-MD+EN 18031+CE-RED 三重欧盟认证。建议企业按“机械法规时间窗+无线网络安全+CRA数字合规+无障碍”四块排期。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260916-04",
+        "title": "国家数据局召开首场具身智能专项座谈会，明确将推动具身智能数据标准",
+        "country": "中国",
+        "type": "政策动态",
+        "sourceType": "官方/权威媒体",
+        "source": "Pandaily / 今日头条（具身智能产业周报）",
+        "url": "https://pandaily.com/national-data-administration-embodied-ai-data-standards",
+        "date": "2026-09-16",
+        "summary": "国家数据局于 9-10 召开全国首场具身智能专项座谈会，围绕行业数据供给与数据要素价值释放研讨，明确提出将“适时”推动具身智能数据标准、指导地方数据部门有序开展工作、支持数据投入型企业。局长刘烈宏主持，参会方含中科院自动化所、北京通用人工智能研究院、京东、光轮智能、石景山具身智能数据训练中心、北京人形机器人创新中心等。标志数据监管机构正式进入具身智能标准话语；企业应以 YD/T 6771-2026（11-1 生效）为近期质量标尺。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260916-05",
+        "title": "国家网络安全周首设“具身智能安全”分论坛，全生命周期防护与标准加速补位",
+        "country": "中国",
+        "type": "安全/合规",
+        "sourceType": "行业媒体",
+        "source": "机器人大讲堂（leaderobot.com）",
+        "url": "https://www.leaderobot.com/news/preview/9536",
+        "date": "2026-09-16",
+        "summary": "2026 国家网络安全周（9-15 至 9-16 济南）专设“具身智能安全”分论坛。文章指出产业“躯体强、大脑弱”、进入真实世界后突发应对不足；标准体系加速：《人形机器人与具身智能标准体系（2026版）》已发布，国标《人形机器人安全要求 第1部分：通用安全》立项，《网络安全技术 具身智能安全指南》8 月公示（宇树、电子标准院、浦江实验室等起草），覆盖输入—理解—决策—执行—物理影响全链路。绿盟、360 等已布局机器人安全测评与“以模治模”防御。安全从“事后打补丁”转向嵌入产品全生命周期。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260916-06",
+        "title": "Agility Robotics 发布 Digit 5 人形机器人并与 Churchill XI 达成 25 亿美元估值 SPAC 交易",
+        "country": "美国",
+        "type": "产品发布/资本",
+        "sourceType": "权威媒体",
+        "source": "RuntimeWire（引 PR Newswire）",
+        "url": "https://runtimewire.com/article/agility-digit-5-humanoid-spac-safety",
+        "date": "2026-09-16",
+        "summary": "Agility Robotics 于 9-15 发布 Digit 5：可举 50 磅（较 Digit 4 +40%）、90 分钟电池、9 分钟自主快充、10:1 作业/充电比，新安全架构使其可脱离防护栏在人员旁作业（多传感器+独立安全控制器）。公司已与 Churchill Capital Corp. XI 签署并购协议，拟估值 25 亿美元、募资超 6.2 亿美元（截至 9-15 未交割）；截至 2026-05 在手三年 RaaS 订单超 3 亿美元。Salem RoboFab 设计年产 1 万台，约 75% 零件美国采购。成为 NVIDIA Halos for Robotics 首发合作伙伴。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260916-07",
+        "title": "宇树科技发布 G1+ 人形机器人，六大升级、标准版含税 9.5 万元",
+        "country": "中国",
+        "type": "产品发布",
+        "sourceType": "权威媒体",
+        "source": "网易（极新早报）",
+        "url": "https://www.163.com/dy/article/L6UCSS9F05562DGT.html",
+        "date": "2026-09-16",
+        "summary": "宇树科技发布 G1+ 人形机器人，围绕运动性能、感知交互、智能体验三大维度完成六项升级：颈部新增 2 自由度（俯仰 -25°~36°、偏航 ±110°）；肩腰电机峰值扭矩 +110%、同扭矩发热 -72%；双目+广角单目双视觉+3D 激光雷达，头部触摸传感器，前4后2六麦阵列，支持外接供电长时作业。整机约 35kg、25 个关节自由度、手臂负载约 3kg，面向科研与展示场景。标准版含税售价 9.5 万元。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260916-08",
+        "title": "蓝虫具身发布模块化人形机器人 Mantis Standard「小白」，0.98 万元起",
+        "country": "中国",
+        "type": "产品发布",
+        "sourceType": "权威媒体",
+        "source": "网易（极新早报）",
+        "url": "https://www.163.com/dy/article/L6UCSS9F05562DGT.html",
+        "date": "2026-09-16",
+        "summary": "蓝虫具身（BlueBug Embodied）发布模块化人形机器人 Mantis Standard「小白」，起售价 0.98 万元，定位低成本、可模块化扩展的科研/教育与人形机器人开发平台。该价格点进一步压低人形机器人入门门槛，反映国产供应链成熟与产品 commoditization 加速，亦加剧中低端本体的价格竞争。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260916-09",
+        "title": "山东优宝特智能完成亿元级 A+ 轮融资，人形机器人赛道资本持续升温",
+        "country": "中国",
+        "type": "融资",
+        "sourceType": "权威媒体",
+        "source": "今日头条（首页新闻/青岛财经日报）",
+        "url": "https://www.toutiao.com/article/7685675557275419199/",
+        "date": "2026-09-16",
+        "summary": "山东优宝特智能机器人有限公司宣布完成亿元级 A+ 轮融资，由东证资本领投，济南先行投资集团、淄博高新区创投跟投，天使轮股东联想之星持续追加，累计融资达数亿元。公司聚焦四足/人形机器人，融资用于产品研发与量产。同期立昂（深圳）机器人完成千万级战略融资（深圳莱福德投资、云悦资本任独家 FA）。在宇树 IPO 后，人形机器人一级市场融资与 IPO 退出通道同步打开。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260916-10",
+        "title": "现代汽车考虑在捷克工厂部署 Boston Dynamics Atlas 人形机器人，产业从实验室迈向产线验证",
+        "country": "美国/捷克",
+        "type": "应用部署",
+        "sourceType": "行业媒体",
+        "source": "Machine Dawn（聚合自多家外媒）",
+        "url": "https://machinedawn.ai/today",
+        "date": "2026-09-16",
+        "summary": "现代汽车（Hyundai Motor）正考虑在其捷克制造工厂实际部署 Boston Dynamics 的 Atlas 人形机器人，标志人形机器人产业从实验室测试走向产线验证。现代 2021 年收购 Boston Dynamics，此前多在研发场景演示；落地整车制造产线将检验动态双足机器人在工业环境的人机协作、安全与节拍适配能力，为全球车企采用人形机器人提供标杆案例。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "geo",
+      "item": {
+        "id": "auto-20260916-11",
+        "title": "欧盟通过 2026 年两用物项管制清单更新，新增半导体制造设备与先进计算 IC 等",
+        "country": "欧盟",
+        "region": "欧盟",
+        "type": "出口管制",
+        "impact": "中等",
+        "sourceType": "官方发布（欧委会）",
+        "source": "European Commission – DG 贸易与经济安全",
+        "url": "https://policy.trade.ec.europa.eu/news/2026-update-eu-control-list-dual-use-items-2026-09-14_en",
+        "date": "2026-09-16",
+        "summary": "欧盟委员会于 2026-09-14 通过授权法规更新 Annex I（Regulation (EU) 2021/821）两用物项管制清单，与 2025 年瓦森纳安排（WA）、澳洲集团（AG）、核供应国集团（NSG）多边决议对齐。新增：半导体制造与检测设备（钼/钌 ALD、EUV 掩模检测、单片清洗等）、先进计算 IC 及含数字处理单元的电子组件、陶瓷基复合材料（莫来石）、感应式旋转编码器、增材制造设备（含能材料）、SiC 纤维 CVD 设备等，并修订部分控制参数与定义。清单经欧盟公报例行 2 个月审议期后生效。对机器人/AI 算力供应链的出口合规提出更高要求。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "geo",
+      "item": {
+        "id": "auto-20260916-12",
+        "title": "美国 FCC Covered List 持续冲击韩/日机器人对美出口，MOTIE 尚无替代通道",
+        "country": "韩国/美国",
+        "region": "韩国/美国",
+        "type": "出口管制/供应链",
+        "impact": "中等",
+        "sourceType": "行业分析",
+        "source": "RobotAIGeek",
+        "url": "https://www.robotaigeek.com/news/korea-robot-exports-stall-us-mobile-robot-rules",
+        "date": "2026-09-16",
+        "summary": "分析指出，FCC 2026-07-28 将“境外产先进机器人设备”列入 Covered List（依据《安全可信通信网络法》，非海关禁令而是无线电授权禁令），对新型号实施对美入市封锁，且按“外国生产”+“美国成分>65%（2028 前）/75%（2029 起）”判定，不涉及生产国籍。韩国企业（Rainbow Robotics、T-Robotics 等）对美出口受阻，仅路径为国防部（DoW）有条件豁免或美国本土化供应链；截至 9-14 MOTIE 尚未公布可替代的政府通道。采购方须将 FCC 设备授权号置于关键路径，勿对 2026 美国交付签违约金。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "cases",
+      "item": {
+        "id": "auto-20260916-13",
+        "title": "PROCEPT BioRobotics 遭证券集体诉讼：被指以未披露批量折扣虚增水刀机器人耗材收入",
+        "country": "美国",
+        "category": "证券/投资者集体诉讼",
+        "penaltyType": "证券集体诉讼",
+        "authority": "美国加州北区联邦法院（证券集体诉讼）",
+        "amount": "待定（集体诉讼，原告方为 2024-02-28 至 2026-02-25 期间投资者）",
+        "sourceType": "权威媒体/律所通报",
+        "source": "FairsOnline（Hagens Berman 律所通报）",
+        "url": "http://fairsonline.org/procept-biorobotics-hit-securities-suit-over-handpiece-sales",
+        "date": "2026-09-16",
+        "summary": "PROCEPT BioRobotics（NASDAQ: PRCT，泌尿外科水刀手术机器人企业）遭投资者证券集体诉讼，指控其通过未披露的批量折扣计划拉高 Aquablation 疗法一次性“水刀头”耗材收入、提前透支需求并掩盖渠道库存。2026-02-25 披露真实手术量后，美区水刀头销量环比骤降 30%、累计超额库存超 1 万套，股价自 2025-08 至披露日跌超 48%。集体诉讼代表期 2024-02-28 至 2026-02-25，首席原告截止 2026-09-22。对机器人企业而言，耗材/订阅收入确认与渠道库存披露是证券合规高风险点。",
         "verified": "待确认"
       }
     }
