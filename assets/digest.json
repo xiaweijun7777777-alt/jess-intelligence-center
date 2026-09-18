@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "items": [
     {
       "key": "regulations",
@@ -6556,6 +6556,100 @@
         "url": "https://www.chosun.com/english/industry-en/2026/09/16/RNNVQSMIPFHT3KAPLYT5QEPKZY",
         "date": "2026-09-17",
         "summary": "韩国个人信息保护委员会（PIPC）9月16日公布，因未充分保障数据主体权利（未回应用户个人信息询问、以非韩语/英语答复本国用户等），对Wrtn Technologies、Tesla Korea、DeepSeek、OpenAI、Nike五家企业作出整改建议。其中Tesla Korea（具机器人业务关联）、DeepSeek以非韩语答复、OpenAI未透过境内代表人妥善回应咨询。本案显示出海AI/机器人企业在韩须落实本地化个人信息权利响应与境内代表机制，避免合规缺口。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260918-01",
+        "title": "地瓜机器人（地平线孵化）完成 4 亿美元 C 轮融资，未来资产领投",
+        "country": "中国",
+        "category": "融资",
+        "sourceType": "权威媒体",
+        "source": "新浪财经 / 网易",
+        "url": "https://www.163.com/dy/article/L718M89C05568W0A.html",
+        "date": "2026-09-18",
+        "summary": "地瓜机器人宣布完成 4 亿美元 C 轮融资，由未来资产领投，美团战投、合肥国投、南山战新投、凯辉基金等跟投，高瓴创投、五源资本、线性资本等老股东持续加码。资金用于强化旭日芯片全算力段布局与具身智能全链路软件平台。2026 上半年营收数倍增长，旭日系列芯片累计出货破 800 万片，具身智能业务进入量产级出货。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260918-02",
+        "title": "小米开源 Robotics-U0 具身世界模型（4B / 38B 参数）及训练推理工具",
+        "country": "中国",
+        "category": "技术发布 / 开源",
+        "sourceType": "行业媒体 / 聚合",
+        "source": "Machine Dawn · Today in Robotics",
+        "url": "https://machinedawn.ai/today",
+        "date": "2026-09-18",
+        "summary": "小米发布 Robotics-U0，一个自回归具身世界基础模型，提供 4B 与 38B 两档参数版本及配套训练、推理工具，并宣布开源。该模型在 WorldArena 基准的场景理解、迁移学习与视频合成上居前列，FlashAR+ 加速达 83 倍，被视为中国人形机器人基础模型开源生态的重要一步。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260918-03",
+        "title": "全球 AI 治理进入加速期：联合国警告「最后窗口期」，欧盟将 AI 聊天机器人纳入监管射程",
+        "country": "国际",
+        "category": "AI 治理 / 监管动向",
+        "sourceType": "权威媒体",
+        "source": "腾讯新闻",
+        "url": "https://new.qq.com/rain/a/20260917A04LXA00",
+        "date": "2026-09-18",
+        "summary": "9 月 16 日，联合国秘书长古特雷斯警告 AI 风险已超出人类认知边界、呼吁多边协调设护栏；同日欧盟委员会主席冯德莱恩在国情咨文中将 AI 聊天机器人、算法推荐与成瘾性设计纳入监管范畴，拟对 13 岁以下禁用多数社交平台、13–15 岁设家长「迷你账户」。监管对象从内容扩展至交互模式与底层技术逻辑，具身智能产品的合规成本与交互设计义务或将随之抬升。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260918-04",
+        "title": "贸促会解读中国机器人产业出口管制「双轨制」：两用物项 + 技术出口并行监管",
+        "country": "中国",
+        "category": "出口管制 / 合规解读",
+        "sourceType": "官方机构 / 权威媒体",
+        "source": "中国贸促会（贸企通）",
+        "url": "https://www.eccpit.com/news/Y21zcG86MjM3ODE",
+        "date": "2026-09-18",
+        "summary": "中国贸促会发文梳理机器人产业出口管制框架：由「两用物项出口管制」与「技术出口管理」双主线构成。2B207 项下的特种机器人本体、控制器及软件属限制出口，须事先取得商务部许可；「出口」定义涵盖向境内外籍机构/人员提供受控技术，视同出口。文章提示整机及零部件无论经第三国分销、再出口均受最终用户与最终用途监管，为企业出海合规提供实操指引。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "geo",
+      "item": {
+        "id": "auto-20260918-05",
+        "title": "美收紧无人机/机器人规则，全球机器人市场走向区域割裂（中国占 H1 人形出货 86%）",
+        "region": "美国 / 全球",
+        "type": "出口管制 / 贸易壁垒",
+        "impact": "中等",
+        "sourceType": "行业分析 / 媒体",
+        "source": "Axis Signal / AmberCred（引 Counterpoint）",
+        "url": "https://www.axisignal.com/tech/us-tightens-drone-and-robot-rules-china-keeps-manufacturing-edge",
+        "date": "2026-09-18",
+        "summary": "分析指出，美方 7–8 月将 FCC Covered List 扩展至外国制造先进机器人、并依 232 条款对进口无人机及零部件征 10%–100% 关税（9 月生效、2027 年零部件关税跟进），意在补全「无形 AI 出口管制 + 有形产品进口管制」闭环。Counterpoint 数据显示 2026 上半年全球人形机器人出货约 2.2 万台、中国五大厂商占 86%。分析认为关税难以抵消中国制造成本优势，市场更可能沿区域割裂而非中美二分。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "cases",
+      "item": {
+        "id": "auto-20260918-06",
+        "title": "中国网信办披露 10 起网络安全 / 数据 / 个人信息保护执法案例（含 AI、数据违规）",
+        "country": "中国",
+        "category": "数据违规 / 个人信息保护",
+        "penaltyType": "数据违规·个人信息保护（监管通报/责令整改）",
+        "authority": "国家网信办（CAC）",
+        "amount": "非罚款（通报 + 责令整改）",
+        "sourceType": "监管披露 / 权威媒体",
+        "source": "MLex（引网信办通报）",
+        "url": "https://www.mlex.com/mlex/technology/articles/2526485/china-regulator-highlights-ai-data-transfer-violations-in-enforcement-cases",
+        "date": "2026-09-18",
+        "summary": "国家网信办于 9 月 17 日通报 10 起网络安全、数据安全与个人信息保护执法案例，显示监管在继续处罚基础网络安全与数据泄露失责的同时，加大了对新兴技术风险（含 AI、违规数据转移）的执法力度。对具身智能企业的数据采集、跨境传输与个人信息处理合规具直接警示意义。",
         "verified": "待确认"
       }
     }
