@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "items": [
     {
       "key": "regulations",
@@ -7499,6 +7499,190 @@
         "url": "https://www.toutiao.com/article/7689495625557197347/",
         "date": "2026-09-26",
         "summary": "2026-09-25 报道：一边美国 FCC 将外国生产先进机器人纳入限制、抬高中国机器人入美门槛，另一边特斯拉团队密集来华审核中国供应商（三花智控、均胜电子、拓普集团等浙江企业），弗里蒙特首座大规模 Optimus 工厂设计年产能 100 万台。文章指出全球机器人产业出现“市场准入政治化、供应链仍按效率聚集”的割裂：美国可卡中国机器人市场准入，却难复制背后的制造网络、迭代速度与工程经验。发布日期 2026-09-25，状态待确认。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "regulations",
+      "item": {
+        "id": "auto-20260927-01",
+        "title": "我国牵头制定的家用机器人国际标准《家用和类似用途机器人性能评估方法》发布",
+        "country": "中国",
+        "type": "标准 / 产品性能",
+        "sourceType": "官方发布（国际标准）",
+        "source": "苏州新闻网 / 同花顺转引（ISO/IEC 标准）",
+        "url": "https://m.10jqka.com.cn/20260926/c680286104.shtml",
+        "date": "2026-09-27",
+        "summary": "近日，我国牵头制定的国际标准《家用和类似用途机器人性能评估方法》正式发布，标准起草组由苏州大学相城机器人与智能装备研究院副院长瞿卫新领衔。该标准设置避障、坡度运行、隔墙回充等 11 项核心测试项目，将家庭真实场景转化为可量化、可复现的技术指标，为全球家用机器人行业搭建统一性能评估框架。海博（苏州）机器人等国内企业已获欧美日韩客户近万台订单，标准国际化有望降低出海合规与互认成本。原文发布日期 2026-09-26，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "regulations",
+      "item": {
+        "id": "auto-20260927-02",
+        "title": "美国 FDA 发布机器人辅助手术设备（RASD）上市前提交草案指南",
+        "country": "美国",
+        "type": "医疗器械 / 产品合规",
+        "sourceType": "官方发布",
+        "source": "美国食品药品监督管理局（FDA）",
+        "url": "https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/guidance-documents-medical-devices-and-radiation-emitting-products",
+        "date": "2026-09-27",
+        "summary": "FDA 于 2026-09-25 在《联邦公报》（91 FR 60967）发布草案指南《Robotically-Assisted Surgical Devices—Premarket Submissions》，面向机器人辅助手术设备（RASD）的上市前提交（510(k)/PMA）提供非临床与临床测试、软件与网络安全、人因工程等建议，公众意见截止 2026-11-24。该指南将遥操作手术机器人纳入更结构化的技术证据与网络安全审查框架，对含软件控制与联网功能的医疗机器人产品合规路径具有指向意义。原文发布日期 2026-09-25，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260927-03",
+        "title": "Agentic AI 合规指南：将 EU AI Act、NIST AI RMF 与 ISO/IEC 42001 映射到智能体身份治理",
+        "region": "国际 / 美国",
+        "category": "合规解读 / 机构解读",
+        "sourceType": "专业机构解读",
+        "source": "Non-Human Identity Group（NHIMG）",
+        "url": "https://nhimg.org/agentic-ai-compliance-guide",
+        "date": "2026-09-27",
+        "summary": "9 月 26 日更新的合规指南指出，监管与审计关注的“智能体身份”治理（清单、归属、最小权限、日志、人工监督与吊销）正是 EU AI Act、NIST AI RMF、ISO/IEC 42001 等证据要求的底层支撑。指南梳理：AI Act 透明义务已自 2026-08-02 生效；高风险的独立 Annex III 系统义务推迟至 2027-12-02，嵌入 Annex I 受监管产品的 AI 义务推迟至 2028-08-02（Digital Omnibus 修订）。多数企业级智能体虽非“高风险”，但仍受数据保护、行业与网络安全规则约束。对部署具身智能/机器人智能体的企业，宜建立统一身份控制集并映射至各框架。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260927-04",
+        "title": "具身智能 IPO 审核“三把尺子”收紧：收入真实性、商业化验证、行业地位",
+        "region": "中国",
+        "category": "监管动态 / 律所解读",
+        "sourceType": "新闻媒体 / 律所解读",
+        "source": "网易（执业律师视角）",
+        "url": "https://www.163.com/dy/article/L7PGCA4C0534J1O1.html",
+        "date": "2026-09-27",
+        "summary": "9 月 26 日文章梳理，多家投行确认机器人等硬科技企业 IPO 审核更重质量，监管以“三把尺子”把关：①收入真实性（关注是否依赖关联交易或“刷单式”采购）；②商业化验证（是否真正量产、持续现金流，而非样机展示）；③行业地位（技术壁垒是否真实，否则上市进程受影响）。估值逻辑正从“讲故事”转向“验证收入与落地”。该动向与前期证监会窗口指导一脉相承，对具身智能企业的股权安排、业绩对赌与信息披露提出更高合规要求。原文发布日期 2026-09-26，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "updates",
+      "item": {
+        "id": "auto-20260927-05",
+        "title": "FTC 明确：AI 智能体不得视为独立责任主体，企业须承担代理责任",
+        "region": "美国",
+        "category": "监管指引 / 执法立场",
+        "sourceType": "监管机构立场（媒体解读）",
+        "source": "FTC / ByteTech Lab 解读",
+        "url": "https://www.bytetechlab.com/blog/2026/business/ftc-pushes-back-on-treating-ai-agents-as-independent-actors-regulators-reject-corporate-liability-shields",
+        "date": "2026-09-27",
+        "summary": "FTC 主席表态拒绝将 AI 智能体视为独立行为体以豁免企业责任：若自主智能体诱导用户转向高价合作产品、锁定订阅或拒绝用户指令以掩护商业指标，构成非法欺骗；算法协同定价同样不能豁免反垄断责任。监管强调“执行透明、归属清晰、可审计、可干预”，企业高管不能以“智能体误解提示”推卸欺骗责任。对部署具身智能客服/销售智能体的企业，需落实部署前审计、持续监控与人工接管（kill switch），责任链条最终落在企业管理层。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260927-06",
+        "title": "软银 2.25 亿美元战略投资 Autonomous Solutions（ASI），共建自主工程机械合资公司",
+        "region": "美国",
+        "category": "融资 / 合资",
+        "sourceType": "新闻媒体",
+        "source": "Business Wire / FutureX Daily",
+        "url": "https://dev.to/future_x/futurex-physical-ai-daily-issue-132-0927-2ohd",
+        "date": "2026-09-27",
+        "summary": "软银向犹他州 Autonomous Solutions（ASI）战略投资 2.25 亿美元，并成立合资公司开发面向大型基建的自主工程机械（先从土方与现场物料搬运切入）。ASI 旗舰产品 Mobius 为可接管各大品牌工程车辆的机队调度软件。同月软银还同意收购 RAI Institute（仍待 CFIUS 审查）。此举显示资本继续加注“物理 AI + 自主装备”赛道。原文发布日期 2026-09-27，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260927-07",
+        "title": "PAL Robotics 发布独立版 TIAGo Pro Arm 机械臂，面向机器人与物理 AI 研究",
+        "region": "西班牙 / 欧盟",
+        "category": "产品发布",
+        "sourceType": "行业媒体",
+        "source": "Robotics & Automation News",
+        "url": "https://roboticsandautomationnews.com/2026/09/26/pal-robotics-launches-standalone-tiago-pro-arm-for-manipulation-and-physical-ai-research/105165/",
+        "date": "2026-09-27",
+        "summary": "PAL Robotics 在 IROS 2026（9/27–10/1，匹兹堡）发布独立版 TIAGo Pro Arm：七自由度、基于 ROS 2 与 ros_control、采用串联弹性作动器，可作固定独立系统或搭配移动底盘组成移动操作平台，支持扩展传感器，面向机器人学习、AI 驱动操作等研究。同期其 KANGAROO 人形机器人在欧洲议会 euROBIN 收官活动展示 locomotion 能力。原文发布日期 2026-09-26，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260927-08",
+        "title": "宇树 GD01 载人机甲亮相数贸会，王兴兴谈机器人攻克毫米级误差",
+        "region": "中国",
+        "category": "产品发布 / 行业活动",
+        "sourceType": "新闻媒体",
+        "source": "东方财富 / 科创板日报",
+        "url": "https://finance.eastmoney.com/news/1354,202609263884413676.html",
+        "date": "2026-09-27",
+        "summary": "9 月 23–27 日第五届全球数字贸易博览会在杭州举行，宇树科技 GD01 载人机甲（高约 3 米、红色金属涂装、半开放式驾驶舱、载人总重约 500 公斤）成为焦点，工作人员称售价 300 多万元、尚无非售。王兴兴在演讲中将大型机器人定义为“机器人里的越野车”，面向户外复杂地形与强通过性场景；并判断具身智能当前最大瓶颈是 AI 模型输入输出与真实物理世界的精准匹配不足（每一步感知—决策—执行均产生并累积偏差）。原文发布日期 2026-09-26，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260927-09",
+        "title": "Archer 收购波音 Wisk、SkyGrid 与 Insitu 迈出关键一步（HSR 等待期届满）",
+        "region": "美国",
+        "category": "并购",
+        "sourceType": "新闻媒体",
+        "source": "AI Insider / FutureX Daily",
+        "url": "https://dev.to/future_x/futurex-physical-ai-daily-issue-132-0927-2ohd",
+        "date": "2026-09-27",
+        "summary": "Archer Aviation 收购波音 Wisk（eVTOL，六代机型、逾 1700 次试飞）、SkyGrid（自动化空域管理）与 Insitu（逾 3500 架无人机、服役 35 国）的交易 HSR 反垄断等待期于 9 月 18 日 23:59 ET 届满；其他监管批准与交割条件尚未完成，Archer 仍预计 2026 年底前完成。交易将自动驾驶飞行技术、空域管理与无人机产能纳入同一体系，强化“自主系统 + 空中移动”布局。原文发布日期 2026-09-27，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "industry",
+      "item": {
+        "id": "auto-20260927-10",
+        "title": "逐际动力 LimX Kuafu 人形机器人降价（41 万+ → 30 万+），销量同比增约 18 倍",
+        "region": "中国",
+        "category": "产品 / 市场",
+        "sourceType": "行业动态（媒体汇总）",
+        "source": "FutureX Daily",
+        "url": "https://dev.to/future_x/futurex-physical-ai-daily-issue-132-0927-2ohd",
+        "date": "2026-09-27",
+        "summary": "据 9/27 行业日报，逐际动力（LimX Dynamics）Kuafu 人形机器人均价由 41 万余元降至 30 万余元，销量同比增长约 18 倍，反映国产人形在成本下探与规模交付上的加速。同期 Agility Digit v4 在 IROS 2026 展示端到端移动操作（首次尝试即开箱成功）。价格与交付能力的快速演进，正改写人形机器人的单位经济与采用曲线。原文发布日期 2026-09-27，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "geo",
+      "item": {
+        "id": "auto-20260927-11",
+        "title": "美国会拟扩大 FCC Covered List 至“信息通信技术或服务”（ICTS），机器人等纳入更广限制",
+        "region": "美国 / 中国",
+        "topic": "出口管制 / 制裁",
+        "impact": "中等",
+        "sourceType": "新闻媒体（SCMP 转引）",
+        "source": "Tech360 / 南华早报",
+        "url": "https://www.tech360.tv/us-lawmakers-broaden-china-tech-blacklist-amid-patent-spat",
+        "date": "2026-09-27",
+        "summary": "《通信设备与技术透明法案》（Communications and Technology Transparency Act，由众议院能源与商务委员会提出）拟将 FCC Covered List 覆盖范围由“通信设备或服务”扩至更宽泛的“信息通信技术或服务”（ICTS），并要求每 6 个月更新一次。该法案在美中元首会晤前后提出，被视为把对华科技限制系统化、常态化的信号；机器人等含联网/数字元素的硬件若由“外国对手”实体供应，将面临更宽的进口、营销与销售禁止。目前仍属提案阶段，但指向出口管制立法收紧趋势。原文发布日期 2026-09-26，按检索日收录。",
+        "verified": "待确认"
+      }
+    },
+    {
+      "key": "cases",
+      "item": {
+        "id": "auto-20260927-12",
+        "title": "石头科技 vs 科沃斯 欧洲扫地机器人专利战升级（UPC / 德国禁令）",
+        "region": "中国 / 德国 / 欧盟",
+        "category": "知识产权 / 专利侵权",
+        "penaltyType": "知识产权（专利侵权）",
+        "authority": "德国法院 / 统一专利法院（UPC）",
+        "amount": "（诉讼/禁令，具体赔偿待裁决）",
+        "sourceType": "新闻媒体",
+        "source": "搜狐科技",
+        "url": "https://www.sohu.com/a/1080867997_121124375",
+        "date": "2026-09-27",
+        "summary": "石头科技与科沃斯围绕扫地机器人的欧洲专利战持续升级：去年 9 月科沃斯在欧洲起诉石头，柏林 IFA 期间申请证据保全；10 月石头在德国取得针对科沃斯部分产品的临时禁令；今年 3 月科沃斯 IFA 证据保全令被 UPC 上诉法院撤销；8 月底石头又在 UPC 发起新案。争议聚焦导航、避障、清洁系统与基站等技术领域（石头诉科沃斯涉红外沿墙模块密封结构）。双方欧洲收入占比均近半，专利战成为海外市场竞争手段。原文发布日期约 2026-09-27，按检索日收录。",
         "verified": "待确认"
       }
     }
