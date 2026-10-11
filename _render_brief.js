@@ -1,7 +1,7 @@
 // 一次性脚本：从 digest.json 渲染 daily-brief.html（仅当日增量），复用现有内联样式
 const fs = require('fs');
 const DIR = 'C:/Users/MOVA/WorkBuddy/2026-07-30-16-24-33/regulation-workbench/';
-const TODAY = '2026-10-08';
+const TODAY = '2026-10-11';
 
 const db = JSON.parse(fs.readFileSync(DIR + 'assets/digest.json', 'utf8'));
 const old = fs.readFileSync(DIR + 'daily-brief.html', 'utf8');

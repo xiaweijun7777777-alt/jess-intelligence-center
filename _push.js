@@ -5,7 +5,7 @@ const { execSync } = require('child_process');
 const REPO = 'C:/Users/MOVA/WorkBuddy/2026-07-30-16-24-33/regulation-workbench';
 const GIT = 'C:/Users/MOVA/.workbuddy/binaries/PortableGit/versions/1.2.0/cmd/git.exe';
 const PAT_FILE = 'C:/Users/MOVA/WorkBuddy/2026-07-30-16-24-33/.workbuddy/secrets/gh_pages_pat.txt';
-const TODAY = '2026-10-08';
+const TODAY = '2026-10-11';
 
 function run(cmd, opts) {
   try {
